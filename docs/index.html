@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/snake3d_webgl_build.loader.js"></script>
+    <script src="Build/snake3d_webgl_build2.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/snake3d_webgl_build.data.gz",
-        frameworkUrl: "Build/snake3d_webgl_build.framework.js.gz",
-        codeUrl: "Build/snake3d_webgl_build.wasm.gz",
+        dataUrl: "Build/snake3d_webgl_build2.data",
+        frameworkUrl: "Build/snake3d_webgl_build2.framework.js",
+        codeUrl: "Build/snake3d_webgl_build2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Goibniu",
         productName: "Snake3D",
